@@ -13,6 +13,5 @@
       "source": "/:path*",
       "destination": "/index.html"
     }
-  ],
-  "buildCommand": "chmod +x node_modules/.bin/vite && npm run build"
+  ]
 }

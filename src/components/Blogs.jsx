@@ -1,28 +1,33 @@
 import { motion } from 'framer-motion';
 
+import reactQnAImage from '../assecc/blog/reactqanda.webp';
+import springBootImage from '../assecc/blog/springbootannotation.webp';
+import microservicesImage from '../assecc/blog/microserviceimage.webp';
+
 const blogs = [
   {
     title: "Getting Started with React Q & A",
-    description: "A beginner-friendly guide covering essential React concepts, including components, state, and props, to help you build your first React application.",
+    description: "A beginner-friendly guide covering essential React concepts...",
     date: "Feb 28, 2025",
-    image: "https://files.oaiusercontent.com/file-3C2M8sU2mCva8aj8yaWRLn?se=2025-03-03T09%3A27%3A49Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D200b8091-f85a-4225-a005-79ab54305cbf.webp&sig=4Q6RGdo/CPTcg3gqfnbdAbB8%2BUVR1KB93RQ%2BLyhGWAk%3D",
+    image: reactQnAImage, // Imported Image
     link: "https://medium.com/@asachini095/react-q-a-93e2545be7a1",
   },
   {
     title: "Spring Boot Annotation",
-    description: "Explore the core annotations in Spring Boot, their use cases, and how they simplify application development with powerful metadata-driven configurations.",
+    description: "Explore the core annotations in Spring Boot...",
     date: "Aug 20, 2024",
-    image: "https://files.oaiusercontent.com/file-11B6FYUN9Hkbg8AMcmxMbJ?se=2025-03-03T09%3A41%3A39Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3De3de101d-873c-4393-9d17-b0b19a8a2749.webp&sig=1wrf0G/h33aUXyS8qhRl5iEltt5XU12i6QRo4GyMIr4%3D",
+    image: springBootImage,
     link: "https://medium.com/@asachini095/springbootannotations-eb091cfdb662",
   },
   {
     title: "Microservices Architecture And Design Patterns",
-    description: "Understand the principles of microservices architecture and learn key design patterns to build scalable, resilient, and efficient distributed systems.",
+    description: "Understand the principles of microservices architecture...",
     date: "Feb 5, 2025",
-    image: "https://files.oaiusercontent.com/file-Fry7ExAdYaiAmCM8t8eSby?se=2025-03-03T09%3A28%3A41Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D3903e4f9-8ed6-49fb-8ce6-106e4a9e273c.webp&sig=M9FqdSWD1Bz3EwC4uM0JKSNB1/0Tlls9xkDidMZmfns%3D",
+    image: microservicesImage,
     link: "https://medium.com/@asachini095/microservices-and-software-architecture-6d17c7cd1c3e",
   },
 ];
+
 
 
 const BlogCard = ({ index, title, description, date, image, link }) => {

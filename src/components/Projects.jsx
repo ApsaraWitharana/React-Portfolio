@@ -9,8 +9,8 @@ const projects = [
     tags: ["web", "fullstack", "react", "mongodb", "tailwind"],
     category: "Web Development",
     image: 'https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&w=764&q=80',
-    source_code_link: "#",
-    live_demo_link: "#",
+    source_code_link: "https://github.com/ApsaraWitharana/E-Commerce-App-Next.js.git",
+    live_demo_link: "https://e-commerce-app-next-js-three.vercel.app/",
   },
   {
     name: "Crop Monitoring Website",

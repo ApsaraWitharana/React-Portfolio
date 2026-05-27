@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import {FaGithub, FaLinkedin, FaMedium, FaTwitter} from 'react-icons/fa';
-import profilePic from '../assecc/image/mypic2.png';
-import resume from '../assecc/cv/sachini_apsara_resume.pdf  (11).pdf';
+import mypic from "../assets/image/mypic2.png";
+import resume from '../assets/cv/sachini_apsara_resume.pdf  (11).pdf';
 const Hero = () => {
   return (
     <section id="home" className="relative w-full h-screen mx-auto flex items-center">
@@ -64,9 +64,9 @@ const Hero = () => {
             transition={{duration: 0.8}}
             className="w-full md:w-1/2 flex justify-center items-center"
         >
-          <div className="w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] rounded-full overflow-hidden border-4 border-blue-100 shadow-lg">
+          <div className="w-[400px] h-[400px] sm:w-[400px] sm:h-[400px] rounded-full overflow-hidden border-4 border-blue-100 shadow-lg">
             <img 
-              src={profilePic}
+              src={mypic}
               alt="Profile" 
               className="w-full h-full object-cover"
             />

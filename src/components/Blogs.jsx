@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 
-import reactQnAImage from '../assecc/blog/reactqanda.webp';
-import springBootImage from '../assecc/blog/springbootannotation.webp';
-import microservicesImage from '../assecc/blog/microserviceimage.webp';
+import reactQnAImage from '../assets/blog/reactqanda.webp';
+import springBootImage from '../assets/blog/springbootannotation.webp';
+import microservicesImage from '../assets/blog/microserviceimage.webp';
 
 const blogs = [
   {

@@ -171,6 +171,8 @@ const About = () => {
                 { title: "G.C.E Advanced Level Examination (Maths-2020)", period: "2018-2020 - Present", institute: "St. Thomas' Girls College" },
                 { title: "Graduate Diploma The Beeline Campus", period: "2022 - 2023", institute: "The Beeline English Academy & SDFL" },
                 { title: "Graduate Diploma in Software Engineering", period: "2023 - 2025", institute: "Institute of Java Software Engineering" },
+                { title: "Intern Software Engineer", period: "3 Months", institute: "SLT Mobitel"},
+                { title: "Intern Software Engineer / UI/UX Designer", period: "7 Months", institute: "Interix Digital Pvt Ltd"}
               ].map((journey, index) => (
                   <div key={index} className="relative pl-8 border-l-2 border-accent">
                     <div className="absolute w-4 h-4 bg-accent rounded-full -left-[9px] top-1"></div>
@@ -181,6 +183,7 @@ const About = () => {
               ))}
             </div>
           </motion.div>
+       
         </div>
       </section>
   );

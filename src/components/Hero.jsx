@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import {FaGithub, FaLinkedin, FaMedium, FaTwitter} from 'react-icons/fa';
-import profilePic from '../assecc/image/aboutmepic.jpg';
+import profilePic from '../assecc/image/mypic2.png';
 import resume from '../assecc/cv/sachini_apsara_resume.pdf  (11).pdf';
 const Hero = () => {
   return (

@@ -18,7 +18,7 @@ const Footer = () => {
             <div>
               <h3 className="text-white text-lg font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2">
-                {['home', 'about', 'technologies', 'projects', 'blogs', 'certificates', 'contact'].map((item) => (
+                {['home', 'about', 'technologies', 'projects','design', 'blogs', 'certificates', 'contact'].map((item) => (
                   <li key={item}>
                     <Link
                       to={item}
@@ -36,7 +36,7 @@ const Footer = () => {
             <div>
               <h3 className="text-white text-lg font-semibold mb-4">Contact</h3>
               <ul className="space-y-2">
-                <li className="text-gray-300">asachini095@example.com</li>
+                <li className="text-gray-300">asachini095@gmail.com</li>
                 <li className="text-gray-300">+94 71 362 7595</li>
                 <li className="text-gray-300">Matara,Sri Lanka</li>
               </ul>

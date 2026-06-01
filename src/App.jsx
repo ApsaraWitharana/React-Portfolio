@@ -8,6 +8,8 @@ import Certificates from './components/Certificates';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Loader from "./components/Loader.jsx";
+import Design from "./components/Design.jsx";
+
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -48,6 +50,7 @@ function App() {
         <About />
         <Projects />
         <Blogs />
+        <Design />
         <Certificates />
         <Contact />
         <Footer />
